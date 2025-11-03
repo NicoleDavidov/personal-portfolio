@@ -24,9 +24,9 @@ export default function Home() {
         transition={{ delay: 0.5, duration: 1 }}
         className="text-xl md:text-2xl text-gray-700 max-w-3xl text-center leading-relaxed mb-8"
       >
-        Final-year Computer Science student passionate about creating modern, responsive, and scalable web applications.  
-        Skilled in both front-end and back-end development, I enjoy solving problems and building clean, efficient solutions.  
-        <span className="font-semibold"> Seeking a full-stack role to grow and contribute to impactful projects.</span>
+        Computer Science graduate (GPA: 90) from HIT, passionate about creating modern, responsive, and scalable web applications. 
+        Skilled in both front-end and back-end development, I enjoy solving problems and building clean, efficient solutions.
+        <span className="font-semibold"> Seeking a full-stack developer position where I can contribute to impactful projects and grow professionally.</span>
       </motion.p>
 
       {/* Contact icons */}
@@ -185,7 +185,7 @@ export default function Home() {
               B.Sc. Computer Science (2023 – 2025)
             </h3>
             <p className="mt-2 text-gray-700">
-              Final-year student | HIT – Holon Institute of Technology | GPA: 90
+              Computer Science graduate | HIT – Holon Institute of Technology | GPA: 90
             </p>
           </div>
 

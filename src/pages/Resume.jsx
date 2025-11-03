@@ -44,9 +44,9 @@ export default function Resume() {
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-3 text-gray-800">SUMMARY</h2>
           <p className="text-gray-700 leading-relaxed">
-            Final-year Computer Science student with experience in software development, deployment, and collaboration.
-            Skilled in Java, JavaScript, React, Node.js, Python, and database technologies. Passionate about creating
-            scalable solutions and clean code. Seeking a Full-Stack Developer position to grow and contribute to dynamic projects.
+            Computer Science B.Sc. graduate with hands-on experience in software development, deployment, and team
+            collaboration. Fast learner, passionate about clean code and scalable solutions. Seeking a full stack position to grow and
+            contribute in a dynamic environment.
           </p>
         </section>
 
@@ -54,7 +54,7 @@ export default function Resume() {
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-3 text-gray-800">EDUCATION</h2>
           <p className="text-gray-800">
-            <strong>B.Sc. Computer Science</strong> – Holon Institute of Technology (HIT), GPA: 90 (2023 – 2025)
+            <strong>B.Sc. Computer Science</strong> HIT – Holon Institute of Technology | GPA: 90
           </p>
         </section>
 
@@ -76,8 +76,8 @@ export default function Resume() {
             </li>
             <li>
               <strong>Cost Manager – Full-Stack Expense Tracker</strong> <br/>
-                Developed a complete personal expense tracker.
-                •Frontend: React, Material-UI, Chart.js, IndexedDB
+                Developed a complete personal expense tracker. <br/>
+                •Frontend: React, Material-UI, Chart.js, IndexedDB <br/>
                 •Backend: Node.js, Express, MongoDB Atlas Implemented dashboards, filters, CRUD, and error handling with a RESTful
                 API.
                 <a
@@ -97,8 +97,9 @@ export default function Resume() {
             </li>
             <li>
               <strong>Study Buddy – AI Academic Assistant (Internal AWS Hackathon)</strong> 
-                Built a React-based chatbot prototype for academic support as part of an internal AWS hackathon. Simulated AWS
-                services (Bedrock, Lambda, S3) to analyze student performance and deliver personalized assistance
+                Designed the concept for an AI-driven academic assistant capable of analyzing student performance data using AWS
+                services (S3, Lambda, Bedrock – simulated).Built a React-based chatbot prototype to demonstrate the planned product
+                workflow.Collaborated on defining data flows, potential analysis methods, and user interaction design.
                 <a
                     href="https://github.com/NicoleDavidov/study-buddy-hackathon"
                     target="_blank"
@@ -114,7 +115,7 @@ export default function Resume() {
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-3 text-gray-800">WORK EXPERIENCE</h2>
           <p className="text-gray-700 mb-4">
-            <strong>Technical Support Representative – Rimon Internet (2025 – Present):</strong>  
+            <strong>Technical Support Representative – Rimon Internet (2025 – Present):</strong> <br/> 
             Provide tier-1 technical support for network and internet issues. Troubleshoot router and software setups via phone and
             remote tools while ensuring top-tier customer service.
           </p>
@@ -124,12 +125,12 @@ export default function Resume() {
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-3 text-gray-800">TECHNICAL SKILLS</h2>
           <ul className="list-disc pl-6 text-gray-700 leading-relaxed">
-            <li><strong>Languages:</strong> Python, Java, C++, C, JavaScript, SQL</li>
-            <li><strong>Frontend:</strong> React, HTML, CSS, Tailwind, Material-UI, Chart.js, JavaFX</li>
-            <li><strong>Backend:</strong>  Node.js, Express.js, MongoDB, Java (TCP, Threads)</li>
-            <li><strong>Data:</strong> Pandas, NumPy, EDA, Matplotlib, Visualization</li>
-            <li><strong>Tools:</strong> Git, JUnit, IndexedDB</li>
-            <li><strong>Concepts:</strong> OOP, MVC, Design Patterns (Factory, Strategy), Software Engineering Principles, Class Diagrams (UML)</li>
+            <li><strong>Data & Databases:</strong> SQL, MongoDB, IndexedDB, Pandas, NumPy, EDA, Data Cleaning, Data Transformation, Visualization(Matplotlib, Chart.js)</li>
+            <li><strong>Programming Languages:</strong> Python, Java, C++, C, JavaScript</li>
+            <li><strong>Backend:</strong> Node.js, Express.js, MongoDB, Java (TCP, Threads)</li>
+            <li><strong>Frontend:</strong> React, HTML, CSS, Tailwind, Material-UI, JavaFX</li>
+            <li><strong>Tools:</strong> Git, JUnit, AWS (S3, Lambda, Bedrock – simulated)</li>
+            <li><strong>Architecture: </strong> OOP, MVC, Design Patterns (Factory, Strategy), Software Engineering Principles, UML</li>
           </ul>
         </section>
 

@@ -3,12 +3,22 @@ import { motion } from "framer-motion";
 export default function Projects() {
   const projects = [
     {
+      name: "🪙 Bitcoin Predictor - ML Trading Analytics",
+      description:
+        "Real-time Bitcoin price prediction platform with 90%+ accuracy using ensemble machine learning. Features live market data integration from 15+ sources, professional Bloomberg-style dashboard, and interactive visualizations. Built with Streamlit frontend and Python ML pipeline using Random Forest, Gradient Boosting, and Stacked models.",
+      tech: ["Python", "Streamlit", "Scikit-learn", "Plotly", "Yahoo Finance API", "Pandas"],
+      links: [
+        { label: "GitHub Repo", url: "https://github.com/NicoleDavidov/Bitcoin-Prediction" },
+      ],
+    },
+    {
       name: "📊 Profit Analyzer",
       description:
         "Advanced Java-based client-server application for analyzing financial sequences. Includes Kadane and Prefix Sum algorithms, JavaFX UI, and multi-threaded TCP server with JSON communication.",
       tech: ["Java", "JavaFX", "TCP Sockets", "Design Patterns", "JUnit"],
       links: [
         { label: "GitHub Repo", url: "https://github.com/NicoleDavidov/Profit-Analyzer-Advanced-Java-Project" },
+        { label: "Live Application:", url: "https://btc-trading-analytics.streamlit.app/" },
       ],
     },
     {
@@ -17,9 +27,8 @@ export default function Projects() {
         "Personal finance management system with expense tracking, monthly reports, and charts. Built with React frontend and Node.js + MongoDB backend (developed separately for modularity).",
       tech: ["React", "Node.js", "Express", "MongoDB"],
       links: [
-        { label: "Client Repo", url: "https://github.com/NicoleDavidov/CostManagerFrontEnd" },
+        { label: "GitHub Repo", url: "https://github.com/NicoleDavidov/CostManager-FullStack" },
         { label: "Server", url: "https://costmanagerserversideproject.onrender.com/" },
-        { label: "Server Repo", url: "https://github.com/NicoleDavidov/CostManagerServerSide" },
         { label: "Website", url: "https://costmanager-y239.onrender.com/" },
       ],
     },

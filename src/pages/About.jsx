@@ -8,18 +8,17 @@ export default function About() {
 
       {/* Intro text */}
       <p className="max-w-4xl text-lg md:text-xl text-gray-700 text-center leading-relaxed mb-6">
-        Hi, I'm <span className="font-semibold">Nicole</span>, a final-year Computer Science student at HIT with a strong passion for software development and problem-solving. 
+        Hi, I'm <span className="font-semibold">Nicole</span>, a Computer Science graduate from HIT (GPA: 90) with a strong passion for software development. 
         I specialize in <span className="text-blue-600 font-semibold">Full-Stack Development</span>, working with React, Node.js, Express, and MongoDB, 
         and have experience in Java projects involving client-server architecture, multithreading, and algorithm design.
       </p>
 
       {/* Additional description */}
       <p className="max-w-4xl text-lg md:text-xl text-gray-700 text-center leading-relaxed mb-6">
-        I enjoy working on challenging projects, learning new tools, and building innovative, user-friendly applications. 
-        My strong foundation in OOP, data structures, and algorithms, along with hands-on experience in both front-end and back-end technologies, 
-        allows me to create robust and scalable solutions. <br /><br />
-        In my free time, I love exploring new technologies, reading, Netflix, and working out. 
-        I'm eager to bring my technical expertise and enthusiasm for learning to impactful projects in dynamic environments.
+        I enjoy building practical, user-friendly applications and solving technical challenges. My background in OOP, data structures, and algorithms, 
+        combined with hands-on experience in both front-end and back-end technologies, helps me create reliable and scalable solutions. <br/>
+        In my free time, I like exploring new technologies, reading, watching Netflix, and working out. I'm looking forward to contributing my skills 
+        and enthusiasm to meaningful projects in a dynamic team environment.
       </p>
 
       {/* Info cards */}
@@ -28,9 +27,9 @@ export default function About() {
         <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition">
           <h2 className="text-xl font-bold mb-4 text-blue-600">Skills</h2>
           <ul className="space-y-2 text-gray-700">
-            <li><strong>Frontend:</strong> React, HTML, CSS, Tailwind, Material-UI</li>
-            <li><strong>Backend:</strong> Node.js, Express.js, MongoDB</li>
-            <li><strong>Programming:</strong> Java, Python, JavaScript</li>
+            <li><strong>Frontend:</strong> React, HTML, CSS, Tailwind, Material-UI, JavaFX</li>
+            <li><strong>Backend:</strong>  Node.js, Express.js, MongoDB, Java (TCP, Threads)</li>
+            <li><strong>Programming:</strong> Python, Java, C++, C, JavaScript</li>
             <li><strong>Concepts:</strong> OOP, MVC, Design Patterns</li>
           </ul>
         </div>
@@ -47,7 +46,7 @@ export default function About() {
         {/* Hobbies */}
         <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-2xl transition">
           <h2 className="text-xl font-bold mb-4 text-blue-600">Hobbies</h2>
-          <p className="text-gray-700">Reading, Netflix, Fitness, Exploring New Tech</p>
+          <p className="text-gray-700">Reading, Netflix, Working out, Exploring new technologies</p>
         </div>
 
         {/* Contact */}
