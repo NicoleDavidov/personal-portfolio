@@ -7,7 +7,7 @@ export default function Resume() {
         {/*Download button*/}
         <div className="text-center mb-8">
           <motion.a
-            href="/Nicole-Davidov-CV.pdf"
+            href="/Nicole Davidov CV.pdf"
             download
             className="bg-blue-600 text-white px-6 py-2 rounded-lg font-bold text-base sm:px-8 sm:py-3 sm:text-lg shadow-lg hover:bg-blue-700 transition"
           >

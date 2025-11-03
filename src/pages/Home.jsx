@@ -70,7 +70,7 @@ export default function Home() {
 
       {/* Button to download CV */}
       <motion.a
-        href="/Nicole-Davidov-CV.pdf"
+        href="/Nicole Davidov CV.pdf"
         download
         className="bg-yellow-400 text-gray-900 px-8 py-3 rounded-lg text-lg font-semibold shadow-lg hover:bg-yellow-500 transition mb-12"
       >
