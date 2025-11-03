@@ -20,7 +20,7 @@ export default function Resume() {
           Nicole Davidov
         </h1>
         <p className="text-center text-gray-600 text-lg mb-6">
-          Computer Science Graduate  | Full-Stack & Software Development
+          Computer Science Graduate | Full-Stack & Software Development
         </p>
 
         {/* Contact details */}
